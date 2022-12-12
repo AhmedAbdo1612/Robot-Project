@@ -34,4 +34,3 @@ def main():
         GPIO.cleanup()
         print("ALL CLEAR!")
     
-    print(yub)
