@@ -1,13 +1,13 @@
-import RPi.GPIO
+import RPi.GPIO as GPIO
 import time
 
 in_pin = 11
 
 GPIO.setmode(GPIO.BOARD)
-GPOI.setup(in_pin, GPIO.IN)
+GPIO.setup(in_pin, GPIO.IN)
 
 while True:
-    sensor = GPIO.in_pin(input)
+    sensor = GPIO.input(inp_pin)
 
     if sensor == 1:
         print(sensor)
